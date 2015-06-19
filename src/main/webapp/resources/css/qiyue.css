@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 100%;
+	
+}
+
+
+.navigation-header{
+    width: 1210px;
+    border: 1px solid red;
+    height: 30px;
+    margin: 0px auto;
+	background: #709E57;
+	padding:2px;
+	
+}
+
+
+.right-nav{
+	background: #709E57;
+	float:right:
+	
+}
+
+.ui-megamenu{
+	float:right;
+	display:inline;
+	width:400px;
+	margin: 0px;
+	padding:2px;
+	font-size:10px;
+	/* 	background: #6D339E; */
+	font-color: white;
+	background:#709E57;
+	border:none;
+}
+
+.ui-megamenu span{
+	color:white;
+	
+}
+
+
+
+.ui-menu-list {
+	color:white;
+	
+}
+
+
+

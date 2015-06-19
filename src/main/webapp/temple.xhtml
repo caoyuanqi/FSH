@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+ 
+    <h:head>
+        <f:facet name="first">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+            <h:outputStylesheet library="webjars" name="bootstrap/3.3.4/css/bootstrap.min.css" />
+            <h:outputStylesheet library="webjars" name="font-awesome/4.3.0/css/font-awesome-jsf.css" />
+            <h:outputStylesheet name="css/font-awesome.css"/>
+            <h:outputStylesheet name="css/templatemo_style.css"/>
+            <h:outputStylesheet name="css/templatemo_misc.css"/>
+            <h:outputStylesheet name="css/flexslider.css"/>
+            <h:outputStylesheet name="css/testimonails-slider.css"/>
+            
+            
+            <!-- The script  -->
+            <h:outputScript name="js/vendor/jquery-1.11.0.min.js"/>
+            <h:outputScript name="js/vendor/jquery.gmap3.min.js"/>
+         	<h:outputScript name="js/plugins.js"/>
+            <h:outputScript name="js/main.js"/>
+            
+           
+            
+            <title>祺悦澳购</title>
+        </f:facet>
+ 
+        <f:facet name="middle">
+ 
+        </f:facet>
+        
+        
+ 
+    </h:head>
+ 
+    <h:body>
+    	<f:facet name="last">
+                  <h:outputStylesheet name="css/main.css" />
+        </f:facet>
+ 
+    	<ui:insert name ="header">
+    		
+    	</ui:insert>
+
+		
+        <ui:insert name="content"/>
+		
+		
+        
+       
+       
+       <ui:insert name = "footer">
+       		<ui:include src="/temples/default/footer.xhtml"/>
+       </ui:insert>
+    </h:body>
+</html>

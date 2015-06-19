@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd" 
+	version="2.0">
+                        
+                        
+	<persistence-unit name="persistenceUnit" transaction-type="RESOURCE_LOCAL">
+		<class>com.qiyue.entity.User</class>
+<!-- 		<class>com.qiyue.model.user.User</class> -->
+<!-- 		<class>com.qiyue.model.user.Address</class> -->
+<!-- 		<class>com.qiyue.model.business.Order</class> -->
+<!-- 		<class>com.qiyue.model.business.OrderItem</class> -->
+<!-- 		<class>com.qiyue.model.commentLikeEntity.Product</class> -->
+<!-- 		<class>com.qiyue.model.business.ProductCategory</class> -->
+<!-- 		<class>com.qiyue.model.commentLikeEntity.Article</class> -->
+<!-- 		<class>com.qiyue.model.common.Comment</class> -->
+<!-- 		<class>com.qiyue.model.commentLikeEntity.CKEntityBase</class> -->
+<!-- 		<class>com.qiyue.model.business.Producer</class> -->
+<!-- 		<class>com.qiyue.model.business.ArticleCategory</class> -->
+<!-- 		<class>com.qiyue.model.common.Reply</class> -->
+<!-- 		<class>com.qiyue.model.business.Delivery</class> -->
+<!-- 		<class>com.qiyue.model.user.UserInfo</class> -->
+		
+		
+	</persistence-unit>
+</persistence>
